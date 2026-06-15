@@ -1,0 +1,74 @@
+{
+  "schema_version": 2,
+  "public_url": "http://120.24.117.67/projects/console-e2e-probe/",
+  "final_url": "http://120.24.117.67/projects/console-e2e-probe/",
+  "base_path_ok": true,
+  "pages": [
+    {
+      "url": "http://120.24.117.67/projects/console-e2e-probe/",
+      "ok": true,
+      "title": "Console E2E Probe — Status",
+      "http_status": 200,
+      "content_type": "text/html"
+    }
+  ],
+  "workflow_checks": [
+    {
+      "name": "page loads with HTTP 200",
+      "ok": true
+    },
+    {
+      "name": "OK heading visible and centered",
+      "ok": true
+    },
+    {
+      "name": "no console errors",
+      "ok": true
+    },
+    {
+      "name": "healthz endpoint returns 200",
+      "ok": true
+    }
+  ],
+  "failed_requests": [],
+  "http_errors": [],
+  "console_errors": [],
+  "screenshots": [
+    "evidence/verification/browser-0.0.1.png"
+  ],
+  "visual_review": {
+    "verdict": "pass",
+    "issues": [],
+    "provider": "deepseek",
+    "model": "deepseek-v4-pro",
+    "notes": "Clean single-page status display. 'OK' text 72px, centered, white on #0d1117 dark background. No visual defects. All acceptance criteria met."
+  },
+  "release_version": "0.0.1",
+  "static_assets": [
+    {
+      "url": "http://120.24.117.67/projects/console-e2e-probe/?v=0.0.1",
+      "http_status": 200,
+      "type": "document",
+      "cache_control": "no-cache"
+    }
+  ],
+  "stylesheets": [
+    {
+      "resolved_url": "http://120.24.117.67/projects/console-e2e-probe/?v=0.0.1",
+      "http_status": 200,
+      "type": "inline",
+      "note": "All CSS is inline in <style> tag, no external stylesheets"
+    }
+  ],
+  "asset_probes": [
+    {
+      "url": "http://120.24.117.67/projects/console-e2e-probe/?v=0.0.1",
+      "http_status": 200
+    },
+    {
+      "url": "http://120.24.117.67/projects/console-e2e-probe/healthz?v=0.0.1",
+      "http_status": 200
+    }
+  ],
+  "document_cache_control": "no-cache"
+}

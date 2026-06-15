@@ -1,0 +1,7 @@
+=== Health Check 0.0.1 ===
+Timestamp: 2026-06-15T13:21:06Z
+Public URL: http://120.24.117.67/projects/console-e2e-probe/
+HTTP Status: 200
+Content-Type: text/html
+Healthz: 200 OK
+Service: active

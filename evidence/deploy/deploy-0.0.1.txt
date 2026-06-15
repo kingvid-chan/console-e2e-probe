@@ -1,0 +1,9 @@
+=== Deploy 0.0.1 ===
+Timestamp: 2026-06-15T13:21:00Z
+Tag: 0.0.1
+Checkout: 77879a2b1eee284e6223f8f56089f25f789dd522
+Server: aliyun-cowork
+Port: 9091
+Service: codingagent-console-e2e-probe
+Public URL: http://120.24.117.67/projects/console-e2e-probe/
+Status: active
