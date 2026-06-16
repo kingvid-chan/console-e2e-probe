@@ -1,0 +1,52 @@
+{
+  "schema_version": 3,
+  "public_url": "http://120.24.117.67/projects/console-e2e-probe/",
+  "final_url": "http://120.24.117.67/projects/console-e2e-probe/",
+  "base_path_ok": true,
+  "release_version": "0.0.2",
+  "document_response_headers": {
+    "Cache-Control": "no-cache",
+    "Content-Type": "text/html",
+    "Server": "nginx/1.24.0 (Ubuntu)"
+  },
+  "static_assets": [],
+  "stylesheets": [],
+  "asset_probes": [],
+  "pages": [
+    {
+      "url": "http://120.24.117.67/projects/console-e2e-probe/",
+      "title": "Console E2E Probe — Status",
+      "ok": true
+    }
+  ],
+  "workflow_checks": [
+    {
+      "step": "Browser loads public URL",
+      "ok": true
+    },
+    {
+      "step": "Page displays large OK text centered on dark background",
+      "ok": true
+    },
+    {
+      "step": "Page displays 'all systems operational' in smaller gray text below OK",
+      "ok": true
+    },
+    {
+      "step": "Server response header Cache-Control is no-cache",
+      "ok": true
+    }
+  ],
+  "failed_requests": [],
+  "http_errors": [],
+  "console_errors": [],
+  "screenshots": [
+    "evidence/verification/browser-0.0.2.png"
+  ],
+  "visual_review": {
+    "provider": "kimi",
+    "model": "kimi-k2-0905",
+    "verdict": "pass",
+    "issues": []
+  }
+}
