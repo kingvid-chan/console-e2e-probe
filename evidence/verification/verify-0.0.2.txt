@@ -1,0 +1,80 @@
+=== Hermes Independent Verification — 0.0.2 ===
+Timestamp: 2026-06-16T06:24:53Z
+VERIFIED_COMMIT: 2f5feb26f7be7ce4733fb45c0c2d4f332d4c1f28
+
+=== Git Status ===
+?? evidence/verification/verify-0.0.2.txt
+
+=== Source Content ===
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Cache-Control" content="no-cache">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Console E2E Probe — Status</title>
+  <style>
+    *, *::before, *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      background-color: #0d1117;
+      color: #e6edf3;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    }
+
+    h1 {
+      font-size: 72px;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      color: #f0f6fc;
+    }
+
+    .status {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .status p {
+      font-size: 16px;
+      color: #8b949e;
+      margin-top: 12px;
+    }
+  </style>
+</head>
+<body>
+  <div class="status">
+    <h1>OK</h1>
+    <p>all systems operational</p>
+  </div>
+</body>
+</html>
+
+=== curl Tests ===
+T1 HTTP 200: 200
+T2 Content-Type: Content-type: text/html
+T3 OK text: PASS
+T4 all systems operational: PASS
+T5 h1 72px: PASS
+T6 p 16px: PASS
+T7 p gray #8b949e: PASS
+T8 flex column: PASS
+T9 Cache-Control: PASS
+T10 No JS: PASS
+
+=== ALL TESTS COMPLETE ===
+
+__HERMES_CWD_4763576bdd91__/Users/cqw/外部需求/console-e2e-probe__HERMES_CWD_4763576bdd91__
